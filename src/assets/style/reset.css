@@ -1,0 +1,18 @@
+* {
+  font-family: 'Noto Sans TC', helvetica, arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #9eba75;
+}
+
+a {
+  text-decoration: unset;
+  color: unset;
+}
+
+button {
+  border: none;
+  background: none;
+}
