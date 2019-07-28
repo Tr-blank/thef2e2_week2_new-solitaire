@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   background: #9eba75;
 }

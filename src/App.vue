@@ -8,7 +8,7 @@
     .game(v-if="nowPage === 'game'")
       .game__container
         .game__header
-          img(src="./assets/images/logo.svg")
+          img.game__logo(src="./assets/images/logo.svg")
           .game__control-container
             span.game__control
               img.game__icon(src="./assets/images/icon-refash.svg")
@@ -275,6 +275,8 @@ export default {
 .game
   position: relative;
   padding-top: 62.5%;
+  &__logo
+    max-width 300px
   &__container
     position: absolute;
     width: 100%;
